@@ -1,0 +1,33 @@
+{
+    "codigo": "OP01",
+    "foto": "https:\/\/imgsrv.crunchyroll.com\/cdn-cgi\/image\/fit=cover,format=auto,quality=85,width=1920\/keyart\/GRMG8ZQZR-backdrop_wide",
+    "tipo": "Serie",
+    "titulo": "One Piece",
+    "descripcion": "Las aventuras de luffy y su tripulacion.",
+    "pais": "Japon",
+    "autor": "Eiichiro Oda",
+    "personajes": [
+        {
+            "cedula": "123456",
+            "foto": "https:\/\/imgsrv.crunchyroll.com\/cdn-cgi\/image\/fit=contain,format=auto,quality=70,width=1200,height=675\/catalog\/crunchyroll\/7729c3a285f8c79f38936841504c630b.jpg",
+            "nombre": "Luffy",
+            "apellido": "Monkey",
+            "fecha_nacimiento": "1995-12-03",
+            "sexo": "Masculino",
+            "habilidades": "Gomu Gomu No",
+            "comida_favorita": "Carne",
+            "edad": "19"
+        },
+        {
+            "cedula": "1234",
+            "foto": "https:\/\/imgsrv.crunchyroll.com\/cdn-cgi\/image\/fit=contain,format=auto,quality=70,width=1200,height=675\/catalog\/crunchyroll\/af85e8065deb57aa555f57839298d025.jpg",
+            "nombre": "Zoro",
+            "apellido": "Roronoa",
+            "fecha_nacimiento": "1993-12-03",
+            "sexo": "Masculino",
+            "habilidades": "Machetaso",
+            "comida_favorita": "Sake",
+            "edad": "21"
+        }
+    ]
+}

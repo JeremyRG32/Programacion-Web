@@ -1,0 +1,33 @@
+{
+    "codigo": "HAJ",
+    "foto": "https:\/\/m.media-amazon.com\/images\/S\/pv-target-images\/9cef9a4a0cd4d6727d10a7d7ced004f09f3c9c03d50ee16feaf401b914703352._SX1080_FMjpg_.jpg",
+    "tipo": "Serie",
+    "titulo": "Hajime no ippo",
+    "descripcion": "Trompa, Trompa y ma Trompa",
+    "pais": "Japon",
+    "autor": "Jyoji Morikawa",
+    "personajes": [
+        {
+            "cedula": "999999",
+            "foto": "https:\/\/hajime-no-ippo.weebly.com\/uploads\/2\/4\/5\/5\/24555561\/4009628_orig.jpg",
+            "nombre": "Ippo",
+            "apellido": "Makunouchi",
+            "fecha_nacimiento": "1999-01-01",
+            "sexo": "Masculino",
+            "habilidades": "Trompa y Trompa",
+            "comida_favorita": "Arroz",
+            "edad": "26"
+        },
+        {
+            "cedula": "888888",
+            "foto": "https:\/\/s0.smartresize.com\/wallpaper\/1003\/85\/HD-wallpaper-takamura-no-hajime-ippo.jpg",
+            "nombre": "Mamoru",
+            "apellido": "Takamura",
+            "fecha_nacimiento": "1111-01-01",
+            "sexo": "Masculino",
+            "habilidades": "Trompa^3",
+            "comida_favorita": "Pizza",
+            "edad": "33"
+        }
+    ]
+}
