@@ -21,9 +21,9 @@ if (isset($_GET['codigo'])) {
                 <div>
                     <h3 style="font-weight: bold;">Personajes</h3>
                 </div>
-                <div>
+                <div class="d-block my-2">
                     <a href="agregar_personaje.php?codigo=<?= $_GET['codigo'] ?>">
-                        <button style="width: 75px;" class="btn btn-success">Agregar</button>
+                        <button style="border-radius: 13px; width: 125px; height: 40px; font-weight: bold; font-size: large;" class="btn btn-success">Agregar</button>
                     </a>
                 </div>
             </div>

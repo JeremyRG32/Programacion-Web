@@ -104,7 +104,7 @@ if ($_POST) {
 
                     <div class="mt-3">
                         <button class="btn btn-success" type="submit">Confirmar</button>
-                        <button class="btn btn-danger" type="reset">Borrar</button>
+                        <button class="btn btn-danger" type="reset">Borrar Todo</button>
                         <a href="personajes.php?codigo=<?= $_GET['codigo'] ?>" class="btn btn-primary">Cancelar</a>
                     </div>
                 </form>

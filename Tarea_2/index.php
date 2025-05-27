@@ -2,8 +2,10 @@
             include('layout/header.php');
 
             ?>
-            <div class="text-end mb-2 ">
-                <a href="agregar_editar.php" class="btn btn-success"><i></i>Agregar</a>
+            <div class="d-block text-end my-2">
+                <a href="agregar_editar.php">
+                    <button style="border-radius: 13px; width: 125px; height: 40px; font-weight: bold; font-size: large;" class="btn btn-success">Agregar</button>
+                </a>
             </div>
             <table class="table table-striped table-bordered table-hover align-middle">
                 <thead>
@@ -55,4 +57,5 @@
             </div>
             </div>
             </body>
+
             </html>
