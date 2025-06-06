@@ -1,0 +1,22 @@
+{
+    "codigo": "CLR",
+    "foto": "https:\/\/fotografias-neox.atresmedia.com\/clipping\/cmsimages01\/2022\/04\/29\/818748E7-9226-44E1-AAA8-71F64FF25EBC\/guia-relleno-bleach-capitulos-mas-importantes-centrarse-solo-historia_69.jpg?crop=558,314,x22,y0&width=1280&height=720&optimize=low&format=jpg",
+    "tipo": "Serie",
+    "titulo": "Bleach",
+    "descripcion": "Espada, machete, reiatsu y muelte.",
+    "pais": "Japon",
+    "autor": "Tite Kubo",
+    "personajes": [
+        {
+            "cedula": "123874512",
+            "foto": "https:\/\/imgix.ranker.com\/list_img_v2\/1360\/2681360\/original\/the-best-ichigo-quotes?auto=format&q=50&fit=crop&fm=pjpg&dpr=2&crop=faces&h=185.86387434554973&w=355",
+            "nombre": "Ichigo",
+            "apellido": "Kurosaki",
+            "fecha_nacimiento": "1996-01-02",
+            "sexo": "Masculino",
+            "habilidades": "Espada",
+            "comida_favorita": "Droga",
+            "edad": "23"
+        }
+    ]
+}
