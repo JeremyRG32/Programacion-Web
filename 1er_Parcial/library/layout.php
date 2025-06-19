@@ -1,4 +1,5 @@
 <?php
+//Hecho por Jeremy Reyes Matricula: 2024-0224
 include('modelos.php');
 include('dbx.php');
 class plantilla{
