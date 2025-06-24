@@ -25,10 +25,10 @@ class plantilla
             <link rel="stylesheet" href="/library/style.css">
         </head>
 
-        <body>
-            <div id="menu" class="shadow d-flex">
-                <p class="btn btn-light mx-3 my-2">Inicio</p>
-                <nav id="menu-items" class="d-flex justify-content-center">
+        
+            <div id="menu">
+                <nav id="menu-items" class="d-flex justify-content-center justify-content-between px-5">
+                    <a class="nav-link" href="/index.php">Inicio</a>
                     <a class="nav-link" href="/modules/gender_prediction.php">Prediccion de Genero</a>
                     <a class="nav-link" href="/modules/age_prediction.php">Prediccion de edad</a>
                     <a class="nav-link" href="/modules/universities.php">Universidades</a>
@@ -36,21 +36,18 @@ class plantilla
                     <a class="nav-link" href="/modules/pokemon.php">Pokemon</a>
                     <a class="nav-link" href="/modules/wordpress.php">WordPress</a>
                     <a class="nav-link" href="/modules/currency_conversion.php">Conversion de divisas</a>
-                    <a class="nav-link" href="/modules/images.php">Imagenes IA</a>
+                    <a class="nav-link" href="/modules/images.php">Imagenes</a>
                     <a class="nav-link" href="/modules/countries.php">Paises</a>
                     <a class="nav-link" href="/modules/jokes.php">Chistes</a>
                 </nav>
             </div>
-
-            <div id="content" class="container">
         <?php
+        
     }
 
     function __destruct()
     {
         ?>
-            </div>
-        </body>
         </html>
         <?php
     } 

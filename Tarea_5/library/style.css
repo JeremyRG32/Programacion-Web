@@ -1,20 +1,18 @@
-#body {
-    background-color: rgb(190, 190, 190);
-}
-
 #menu {
     position: sticky;
     top: 0;
-    background-color: rgb(76, 130, 222);
+    background-color: rgba(74, 74, 74, 0);
     font-weight: normal;
     height: 60px;
     font-size: larger;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-bottom: 3px solid rgba(41, 41, 41, 100);
+    backdrop-filter: blur(10px);
 }
 
 .nav-link {
+    color: rgb(27, 27, 27);
     margin-top: 15px;
-    margin-left: 30px;
 }
 
 .inicio {
@@ -22,12 +20,12 @@
 }
 
 .nav-link:hover {
-    color: white;
+    color: rgb(255, 255, 255);
     text-shadow: 0.8px 0.8px black;
 }
 
 #content {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     min-height: 800px;
 }
 
@@ -53,7 +51,7 @@
     border: 0.1rem solid rgb(0, 0, 0);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 10px;
-    
+
 }
 
 form {
@@ -72,4 +70,118 @@ input {
     width: 100%;
     max-width: 250px;
     margin: 0 auto;
+}
+
+.weatherbox {
+    max-width: 300px;
+}
+
+.sunny {
+    background-color: #f7c948;
+}
+
+.cloudy {
+    background-color: #778ca3;
+}
+
+.rainy {
+    background-color: #4b6584;
+}
+
+.stormy {
+    background-color: #2f3640;
+}
+
+.default-bg {
+    background-color: #95a5a6;
+}
+
+.Poke_body {
+    background: linear-gradient(to bottom, #ffcb05, #3c5aa6);
+    min-height: 100vh;
+}
+
+.btn-poke {
+    background: #ef5350;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+.btn-poke:hover{
+    background: #d32f2f;
+}
+.container {
+    background-color: white;
+    border-radius: 15px;
+    max-width: 600px;
+}
+.Weather_body {
+    background: linear-gradient(to bottom, #ffcb05, #2fbcc6);
+    min-height: 100vh;
+}
+.University_body {
+    background: linear-gradient(to bottom, #bcbcbc, #5a5a5a);
+    
+    min-height: 100vh;
+}
+.University_box {
+    background: white;
+}
+
+.University_table {
+    background-color: red;
+}
+.Age_body {
+    background: linear-gradient(to bottom, #9ac2ea, #62daff);
+    min-height: 100vh;
+}
+.icon{
+    font-size: 2.5rem;
+}
+.male{
+    background-color: #84dcf7;
+}
+.female{
+    background-color: pink;
+}
+.unknown{
+    background-color: #c5bbbb;
+}
+.Currency_body{
+    background: linear-gradient(to bottom, rgb(100, 223, 100), rgba(171, 171, 47, 0.632));
+    min-height: 100vh;
+}
+.Ai_body{
+    background: linear-gradient(to bottom, rgb(100, 159, 247), rgb(120, 236, 66));
+    min-height: 100vh;
+}
+.boxcountry {
+    width: 1200px;
+    min-height: 350px;
+    height: fit-content;
+    background-color: rgba(229, 229, 229, 0.525);
+    border-radius: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+
+}
+.Joke_body {
+    background: linear-gradient(to bottom, rgb(255, 255, 255), rgb(248, 252, 0));
+    min-height: 100vh;
+}
+#punchline{
+    display: none;
+}
+.Index_body {
+     background: linear-gradient(to bottom, rgb(255, 255, 255), rgb(247, 155, 155));
+    min-height: 100vh;
+}
+.Index_box{
+    background: linear-gradient(to bottom, rgb(255, 255, 255), rgb(237, 56, 56));
+    width: 75%;
+    border-radius: 10px;
+}
+.indexcard{
+    border: none;
+    background-color: rgba(255, 255, 255, 0.578);
 }

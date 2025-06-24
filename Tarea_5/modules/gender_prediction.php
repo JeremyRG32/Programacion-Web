@@ -20,46 +20,56 @@ if ($_POST) {
         }
 
         $probability = $data['probability'];
+        $probability *= 100;
+        $probability = (string)$probability;
+        $probability = $probability . "%";
+    }
+    if ($gender == "male") {
+        $genderbackground = "male";
+    } else if ($gender == "female") {
+        $genderbackground = "female";
+    } else {
+        $genderbackground = "unknown";
     }
 }
 
 
 ?>
 
-<div class="centered">
-    <div class="box text-center">
-        <h3 class="fw-bold">Prediccion de genero</h3>
-        <p>Escriba un nombre y adivinaremos el genero de la persona</p>
+<body class="Age_body">
+
+
+    <div class="container shadow mt-5 p-3 text-center">
+        <h3 class="fw-bold">Prediccion de Genero</h3>
+        <p>Escriba un nombre y adivinaremos el genero de la persona<br><span class="icon">👧👦</span></p>
 
         <form method="post" action="gender_prediction.php">
 
             <label class="form-label">Nombre</label>
-            <input autocomplete="off" placeholder="Ej: Juan, Maria, Jose, Pedro" name="name" type="text" class="text-center form-control input-centered">
+            <input required autocomplete="off" placeholder="Ej: Juan, Maria, Jose, Pedro" name="name" type="text" class="text-center form-control input-centered">
 
-            <button type="submit" class="btn btn-light mt-3 ">Predecir</button>
+            <button type="submit" class="btn btn-primary mt-3 ">Confirmar</button>
 
-            <div id="result" class="mt-4 d-flex justify-content-center">
+            <div id="result" class="mt-4 d-flex justify-content-center ">
                 <?php if (!empty($gender)) { ?>
-                    <div style="background-color: white;" class="p-4 text-center shadow rounded-4 row">
+                    <div class="p-4 text-center shadow rounded-4 row <?= $genderbackground ?>">
                         <h2 class="mb-3 fw-bold">Resultado</h2>
                         <div class="col-6">
                             <?php if ($gender == "male") { ?>
-                                <h3>Masculino <br> <span style="font-size: 2.5rem;">👦</span></h3>
+                                <h3>Masculino <br> <span class="icon">👦</span></h3>
                             <?php } elseif ($gender == "female") { ?>
-                                <h3>Femenino <br> <span style="font-size: 2.5rem;">👧</span></h3>
+                                <h3>Femenino <br> <span class="icon">👧</span></h3>
                             <?php } else { ?>
-                                <h3>Desconocido <br> <span style="font-size: 2.5rem;">❓</span></h3>
+                                <h3>Desconocido <br> <span class="icon">❓</span></h3>
                             <?php } ?>
                         </div>
                         <div class="col-6">
                             <h3>Probabilidad</h3>
-                            <h3><?=$probability?></h3>
+                            <h3><?= $probability ?></h3>
                         </div>
                     </div>
                 <?php } ?>
             </div>
-
-
         </form>
     </div>
-</div>
+</body>
